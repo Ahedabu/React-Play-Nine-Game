@@ -1,0 +1,44 @@
+#mountNode {
+  color: #000;
+}
+
+.fa-star {
+margin:0.5em;
+font-size:24px;
+
+}
+
+.card {
+display:inline-block;
+box-sizing: border-box;
+
+text-align: center;
+
+
+}
+
+span {
+display: inline-block;
+margin: 5.0em;
+text-align: center;
+background: #ccc;
+width: 24px;
+border-radius: 50%;
+cursor: pointer;
+box-sizing: border-box;
+margin: 2px;
+padding:0px;
+}
+
+.selected {
+background-color: #eee;
+color: #ddd;
+cursor: not-allowed;
+}
+
+.used {
+background-color: #aaddaa;
+color: #99bb99;
+cursor: not-allowed;
+
+}
